@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html, body{
     background: #222;
+    margin: auto;
+    padding: auto ;
 }
 .card{
-    width: 90%;
+    width: 40%;
     border-radius: 10px;
     padding: 40px 35px;
     text-align: center;
@@ -21,12 +23,13 @@ body{
     justify-content: space-between;
 }
 .search input{
+    width: 70%;
     border: 0;
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
+    padding: 10px 20px;
+    height: 40px;
     border-radius: 30px;
     flex: -1;
     margin-right: 16px;
@@ -37,8 +40,8 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius:  50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
 .search button img{
@@ -64,7 +67,7 @@ body{
     padding: 0px 20px;
     margin-top: 50px;
 }
-.clo{
+.col{
     display: flex;
     align-items: center;
     text-align: left;
@@ -72,6 +75,10 @@ body{
 .col img{
     width: 40px;
     margin-right: 10px;
+}
+.col p{
+    font-size: 0.9em;
+    margin: 5px;
 }
 .humidity, .wind{
     font-size: 28px;
